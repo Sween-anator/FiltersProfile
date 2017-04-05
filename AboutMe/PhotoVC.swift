@@ -192,7 +192,7 @@ class PhotoVC: UIViewController, UIImagePickerControllerDelegate, UINavigationCo
     
         // Pass the result of the color filter into the Bloom filter
         // and set its parameters for a glowy effect.
-        let bloomImage = colorFilter.outputImage!//.applyingFilter("CIBloom", withInputParameters: [kCIInputRadiusKey: 10.0, kCIInputIntensityKey: 1.0])
+        let bloomImage = colorFilter.outputImage!.applyingFilter("CIBloom", withInputParameters: [kCIInputRadiusKey: 10.0, kCIInputIntensityKey: 1.0])
         
         return bloomImage
     }
@@ -240,7 +240,7 @@ class PhotoVC: UIViewController, UIImagePickerControllerDelegate, UINavigationCo
     }
     // What happens when a row is selected (didSelectRow)
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        chooseFilterBtn.setTitle(CIFilters[row], for: UIControlState.normal)
+        chooseFilterBtn.setTitle(filterNames[row], for: UIControlState.normal)
         
         // Reset the profile picture to default pic
         profilePic.image = imageRef
