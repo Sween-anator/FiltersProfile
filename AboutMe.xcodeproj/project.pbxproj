@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94C897421E94C56900458677 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C897411E94C56900458677 /* LoginVC.swift */; };
+		94C897441E94DB4D00458677 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C897431E94DB4D00458677 /* ProfileVC.swift */; };
 		94DEBB4F1E92F48E002AEBCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DEBB4E1E92F48E002AEBCB /* AppDelegate.swift */; };
 		94DEBB511E92F48E002AEBCB /* PhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DEBB501E92F48E002AEBCB /* PhotoVC.swift */; };
 		94DEBB541E92F48E002AEBCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DEBB521E92F48E002AEBCB /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94C897411E94C56900458677 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		94C897431E94DB4D00458677 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		94DEBB4B1E92F48E002AEBCB /* AboutMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DEBB4E1E92F48E002AEBCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94DEBB501E92F48E002AEBCB /* PhotoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoVC.swift; sourceTree = "<group>"; };
@@ -39,6 +43,8 @@
 			isa = PBXGroup;
 			children = (
 				94DEBB501E92F48E002AEBCB /* PhotoVC.swift */,
+				94C897411E94C56900458677 /* LoginVC.swift */,
+				94C897431E94DB4D00458677 /* ProfileVC.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -145,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C897441E94DB4D00458677 /* ProfileVC.swift in Sources */,
 				94DEBB511E92F48E002AEBCB /* PhotoVC.swift in Sources */,
+				94C897421E94C56900458677 /* LoginVC.swift in Sources */,
 				94DEBB4F1E92F48E002AEBCB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

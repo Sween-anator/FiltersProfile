@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6B63A4A4277C3F88970A7D042DDD88CF15E5BA6E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6B63A4A4277C3F88970A7D042DDD88CF15E5BA6E" : 9223372036854775807,
+    "79F3556EE30119F2B42FCFFC59511F6D0DD5972E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4DF00ADA-6667-44D1-B607-D9C6BE5F2F67",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6B63A4A4277C3F88970A7D042DDD88CF15E5BA6E" : "AboutMe\/",
+    "79F3556EE30119F2B42FCFFC59511F6D0DD5972E" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AboutMe",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AboutMe.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Sween-anator\/FiltersProfile.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6B63A4A4277C3F88970A7D042DDD88CF15E5BA6E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Sween-anator\/PracIOSApps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "79F3556EE30119F2B42FCFFC59511F6D0DD5972E"
+    }
+  ]
+}
