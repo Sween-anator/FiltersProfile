@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProfileVC: UIViewController {
+class ProfileVC: UIViewController, UITextViewDelegate {
 
     @IBOutlet weak var userNameLbl: UILabel!
     @IBOutlet weak var profilePicture: UIImageView!
@@ -62,7 +62,9 @@ class ProfileVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        aboutTxtField.delegate = self
+        
         userNameLbl.text = _userName
         birthDateLbl.text = _birthDate
         aboutTxtField.text = _aboutYou
@@ -78,6 +80,10 @@ class ProfileVC: UIViewController {
         
         alert.addAction(cancelAction)
         present(alert, animated: true)
+    }
+    
+    func textViewShouldBeginEditing(_ textView: UITextView) -> Bool {
+        return false
     }
     
     @IBAction func backBtnPressed(_ sender: Any) {
